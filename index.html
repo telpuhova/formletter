@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Form Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Letter</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="name">Type your name to see a story</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show the letter</button>
+        </form>
+      </div>
+      <div id="letter">
+        <h1>Here is your letter</h1>
+        <p>Hello <span class="name"></span> . Welcome to our form that is creating a letter addressed you.</p>
+      </div>
+    </div>
+
+  </body>
+</html>
