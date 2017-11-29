@@ -1,3 +1,10 @@
 #letter {
   display: none;
 }
+
+.well {
+  width: 600px;
+  /*height: 600px;*/
+  padding: 50px;
+  margin-top: 50px;
+}
